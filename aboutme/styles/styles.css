@@ -1,0 +1,23 @@
+img {
+    border: 5px solid #100;
+    
+  }
+body{
+    background-color: coral;
+    background-image: url("https://www.nme.com/wp-content/uploads/2022/02/Terraria-Labour-of-Love-update.jpg")
+}
+
+.main{
+    width: 500px;
+    height: 175px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    background: linear-gradient(to right, lightblue 50%, lightgreen 50%);
+}
+
+header{
+    font-size: 100px;
+}
+
