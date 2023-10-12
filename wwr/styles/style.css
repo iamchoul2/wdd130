@@ -1,3 +1,8 @@
+
+
+
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,7 +10,7 @@
 
 nav a{
     text-align:center;
-    color: #000000;
+    color: #fffcfc;
     text-decoration: none;
 }
 
@@ -27,17 +32,17 @@ main section{
 
 #background {
     height: 725px;
-    background-color:#253d5b;
+    background-color:#c6878f;
     color: #99626a;
 }
 
 body{
-    background-color:#948e8c;
+    background-color:#ffffff;
     color: #99626a;
 }
 
 header{
-    background-color: #3767a1;  
+    background-color: #c6878f;  
     color: #000000;
 }
 
@@ -63,11 +68,11 @@ nav a:hover{
 }
 footer{
     background-color:#6e6d78;
-    color: #57393e;
+    color: #c6878f;
 }
 footer a{
     background-color:#6e6d78;
-    color: #57393e;
+    color: #c6878f;
     text-decoration: none;
     font-size: 1.2em;
 }
