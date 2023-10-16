@@ -39,11 +39,17 @@ main section{
 body{
     background-color:#ffffff;
     color: #99626a;
+    font-family: 'inclusive Sans' , sans-serif;
+    font-size: 22px;
 }
 
 header{
     background-color: #c6878f;  
     color: #000000;
+
+.home-title{
+
+}
 }
 
 nav a:hover{
