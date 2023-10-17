@@ -32,13 +32,13 @@ main section img{
 
 #background {
     height: 725px;
-    background-color:#c6878f;
-    color: #99626a;
+    background-color:#49A078;
+    color: #9CC5A1;
 }
 
 body{
-    background-color:#ffffff;
-    color: #99626a;
+    background-color:#9CC5A1;
+    color: #9CC5A1;
     font-family: 'inclusive Sans' , sans-serif;
     font-size: 22px;
     margin: 0;
@@ -46,7 +46,7 @@ body{
 }
 
 header{
-    background-color: #c6878f;  
+    background-color: #49A078;  
     color: #000000;
 }
 
@@ -60,13 +60,13 @@ h2{
 }
 
 nav a:hover{
-    background-color:#d4b9b0;
-    color: #99626a;
+    background-color:#DCE1DE;
+    color: #9CC5A1;
 }
 
 .book, .join{
-    background-color:#d0b6ad;
-    color: #99626a;
+    background-color:#DCE1DE;
+    color: #49A078;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -75,13 +75,13 @@ nav a:hover{
 }
 
 .book:hover, .join:hover{
-    background-color:#948e8c;
-    color: #99626a;
+    background-color:#DCE1DE;
+    color: #9CC5A1;
 }
 
 .msg{
-    background-color:#6e6d78;
-    color: #000000;
+    background-color:#1F2421;
+    color: #DCE1DE;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -92,14 +92,14 @@ nav a:hover{
 }
 
 footer{
-    background-color:#6e6d78;
-    color: #c6878f;
+    background-color:#1F2421;
+    color: #9CC5A1;
     padding: 25px 50px;
     margin-top: 200px;
 }
 footer a{
-    background-color:#6e6d78;
-    color: #c6878f;
+    background-color:#1F2421;
+    color: #9CC5A1;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -109,8 +109,8 @@ footer p {
 }    
 
 footer a:hover{
-    background-color:#6e6d78;
-    color: #57393e;
+    background-color:#DCE1DE;
+    color: #49A078;
     text-decoration: underline;
 }
 
@@ -135,5 +135,5 @@ footer .social img{
 }
 
 .card-img{
-    border: 10px solid #b3a29c;
+    border: 10px solid #DCE1DE;
 }

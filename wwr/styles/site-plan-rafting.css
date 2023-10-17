@@ -8,10 +8,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #c6878f   ;
-  --secondary-color: #b3a29c ;
-  --accent1-color: #6e6d78;
-  --accent2-color: #253d5b;
+  --primary-color: #9CC5A1   ;
+  --secondary-color: #49A078 ;
+  --accent1-color: #DCE1DE;
+  --accent2-color: #1F2421;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Mooli";
