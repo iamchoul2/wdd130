@@ -210,6 +210,48 @@ footer .social img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* this is part of faq */
+#faq1{
+    margin: 20px;
+    font-size: 20px;
+}
+
+#faq2{
+    font-size: 20px;
+}
+
+#faq3{
+    font-size: 20px;
+}
+
+#faq4{
+    font-size: 20px;
+}
+
+#faq5{
+    font-size: 20px;
+}
+
+#faq6{
+    font-size: 20px;
+}
+
+#first{
+    margin-left: 10px;
+    margin-top: 70px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#newheader{
+    background-color: #49A078;  
+}
+
+#newbody{
+    background-color:#99b59d;
+}
+
+/* end of faq part */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
