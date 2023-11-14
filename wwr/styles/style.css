@@ -214,44 +214,37 @@ footer .social img{
 }
 
 /* this is part of faq */
-#faq1{
-    margin: 20px;
-    font-size: 20px;
+
+.faqtitle{
+        text-align: center;
+        font-size: 25px;
+} 
+
+.faq-grid{
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
 }
 
-#faq2{
-    font-size: 20px;
-}
-
-#faq3{
-    font-size: 20px;
-}
-
-#faq4{
-    font-size: 20px;
-}
-
-#faq5{
-    font-size: 20px;
-}
-
-#faq6{
-    font-size: 20px;
-}
-
-#first{
-    margin-left: 10px;
-    margin-top: 70px;
-    padding: 30px;
-    border-radius: 4px;
+#faq1, #faq2, #faq3, #faq4, #faq5, #faq6{
+    background: #49A078;
+    margin: 70px;
+    word-wrap: break-word;
+    vertical-align: middle;
+    font-family: "Mooli",'inclusive Sans' , sans-serif;
+    font-size: 22px;
+    border: 10px solid #DCE1DE;
 }
 
 #newheader{
     background-color: #49A078;  
 }
 
-#newbody{
-    background-color:#99b59d;
+.theimages{
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
 }
 
 /* end of faq part */
