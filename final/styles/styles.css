@@ -19,14 +19,21 @@ footer{
 background-color:#212529;
 color: #F8F9FA;
     padding: 25px 50px;
-    margin-top: 400px;
+    margin-top: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
     height: 175px;
+    bottom: 0;
+    position: relative;
+    
+
 }
 
+#main{
+    margin-bottom: 350px;
+}
 footer a:hover{
     color: #586674;
     text-decoration: underline;
@@ -43,6 +50,13 @@ margin-top: 150px;
     width: 750px;
     background-color: #586674;
 
+}
+
+
+.heroimage2{
+    padding: 25px;
+    width: 1000px;
+    background-color: #586674;
 }
 
 .herotxt{
@@ -67,6 +81,7 @@ body{
     font-family: "Mooli",'inclusive Sans' , sans-serif;
     font-size: 25px;
     text-align:center;
+    
 }
 
 hr{
@@ -77,7 +92,8 @@ hr{
 .homemain{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
 }
 .technicalmain{
     display: grid;
@@ -85,6 +101,12 @@ hr{
     align-items: center;
 }
 
+.informationmain{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
 
 .logo{
     width: 250px;
@@ -95,7 +117,8 @@ hr{
 
 .middleimage{ 
     grid-column: 2/8;
-    grid-row: 3/4;
+    grid-row: 2/4;
+    margin-top: 50px;
 }
 
 .vpiano{
@@ -105,12 +128,19 @@ hr{
 
 .bottomimage{
     grid-column: 2/8;
-    grid-row: 7/8
+    grid-row: 4/5;
+    margin-top: 50px;
 }
 
 .pianolayout{
     grid-column: 5/7;
     grid-row: 1/2;  
+}
+
+.grandpiano{
+    height: 500px;
+    width: 500px;
+    margin-left: 25px;
 }
 
 .text1{
@@ -120,6 +150,7 @@ hr{
     text-align: center;
     grid-column: 2/8;
     grid-row: 1/2;
+    margin-top: 100px;
 }
 
 .text2{
@@ -128,9 +159,7 @@ hr{
     padding-bottom: 15px;
     text-align: center;
     grid-column: 2/8;
-    grid-row: 5/6;
-
-    
+    grid-row: 3/4;
 }
 
 .text1b{
@@ -191,6 +220,7 @@ hr{
     box-shadow: 5px 5px 10px #212529;
     height: 850px;
     margin-bottom: 100px;
+    overflow: auto;
 }
 
 .text3b, .text4b{
@@ -201,6 +231,46 @@ hr{
     margin-top: 100px;
     margin-bottom: 100px;
     height: 500px;
+    overflow: auto;
+}
+
+.text1c{
+    background-color:#586674;
+    line-height: 1.5em;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #212529;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    height: 400px;
+    width: 700px;
+    overflow: auto;
+}
+.text2c{
+    float: left;
+    line-height: 1em;
+    width: 700px;
+    margin-left: 25px;
+}
+.text3c{
+    float: right;
+    width: 700px;
+    margin-right: 25px;
+}
+
+.text2c, .text3c{
+    background-color:#586674;
+    line-height: 1.5em;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #212529;
+    margin-bottom: 100px;
+    height: 425px;
+    overflow: auto;
+}
+
+.text1c:hover, .text2c:hover, .text3c:hover{
+    background-color: #677a8e;
+    transform: scale(1.1);
 }
 
 .logo2{
