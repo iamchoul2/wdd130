@@ -12,6 +12,7 @@ grid-template-columns: 100px auto;
 background-color: #586674;
 background-image: url("/wdd130/final/images/backgroundheader.jpg") ;
 align-items: center;
+width: 100%;
 
 }
 
@@ -27,6 +28,7 @@ color: #F8F9FA;
     height: 175px;
     bottom: 0;
     position: relative;
+    width: 100%;
     
 
 }
